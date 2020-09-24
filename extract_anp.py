@@ -38,6 +38,7 @@ def get_city_data(city, info):
   # Made request
   data = requests.post(url, data = form_data)
   df_city = pd.read_html(data.text, decimal=',', thousands='.')[1]
+  df_city.columns = df_city.columns.droplevel(0)
   df_city['CIDADE'] = name_city
   df_city['COD_CIDADE'] = cod_city
   df_city['ESTADO'] = info['NOME_ESTADO']
