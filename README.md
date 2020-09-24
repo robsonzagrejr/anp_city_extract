@@ -1,6 +1,9 @@
 # Anp City Extract
 Auxiliador para obter preço de combustivel para cada municipio em http://preco.anp.gov.br/include/Resumo_Por_Estado_Municipio.asp
 
+# Dependencias
+Para executar, instale `pandas`, `requests` e `lxml` do pip
+
 # Como usar
 
 1: Vá até a página de síntese dos preços praticados no estado que deseja analisar.
