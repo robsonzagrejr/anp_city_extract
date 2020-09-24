@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1" />
+
+<link rel="stylesheet" href="../estilo_simpweb.css" media="screen" />
+<link rel="stylesheet" href="estilo_relatorio.css" media="screen" />
+<link rel="stylesheet" href="../barraGoverno/css/cinza/default.css" media="screen" />
+</head>
+
+
+<!--
+**********************************************************************
+	REALIZA A INCLUSÃO DAS PÁGINAS DE CONTROLES AUXILIARES
+**********************************************************************
+-->
+
+
+<!-- 
+*******************************************
+	FUNÇÕES JAVASCRIPT 
+*******************************************
+-->
+<script language="javascript" src="../js/default.js"></script>
+<script language="javascript">
+function Direciona(Municipio)
+{
+
+	document.frmAberto.selMunicipio.value = Municipio;
+	document.getElementById('frmAberto').action = 'Resumo_Semanal_Posto.asp';
+	document.getElementById('frmAberto').submit();
+}
+</script>
+
+
+                    <body>
+                        <iframe src="http://www.anp.gov.br/site/barraGoverno/share.asp?w=1008"
+                            frameborder="0" framespacing="0" scrolling="no" allowtransparency="false" width="100%"
+                            height="28" marginwidth="0" marginheight="0"></iframe>
+                        <div id="wrap">
+                            <div id="header">
+                                <!-- BARRA GOVERNO -->
+                                <!--    <img src="/imgs/bkg-ministerio.gif" alt="ministrio de Minas e Energia" id="ministerio" />
+										<img src="/imgs/bkg-governo-federal.gif" alt="Brasil um pas de todos." id="governo_federal" />
+								-->
+                            </div>
+                            <div id="header_simp">
+                                <a title="ANP - Ag&ecirc;ncia Nacional do Petr&oacute;leo, G&aacute;s Natural e Biocombust&iacute;veis"
+                                    href="http://www.anp.gov.br/">
+                                    <img src="../imgs/bkg-logo-anp.gif" alt="Ag&eacute;ncia Nacional do Petr&oacute;leo, G&aacute;s Natural e Biocombust&iacute;veis"
+                                        id="logo_anp" />
+                                </a>
+                                <div id="img-topo-centro" style="padding-left: 350px; margin-top: 12px; margin-left: 25px">
+                                    <a href="../index.asp">
+                                        <img src="../imgs/logo_slp.png" alt="SLP - Sistema de Levantamento de Pre&ccedil;os"
+                                            id="logo_slp" />
+                                    </a>
+                                </div>
+                                <div id="menu-topo-dir">
+                                    <p>
+                                        &nbsp</p>
+                                    <p>
+                                        &nbsp</p>
+                                    <p>
+                                        &nbsp</p>
+                                </div>
+                            </div>
+                            <div id="mae">
+                                <div id="pai">
+                                    <div id="menu_log">
+                                        <span id="breadcrumb">Voc&ecirc; est&aacute; em &raquo;
+                                            </span>
+                                    </div>
+                                    <div id="barra">
+                                        <noscript>
+                                            <p align="center">
+                                                Por favor verifique a configura&ccedil;&atilde;o de seguran&ccedil;a de seu browser
+                                                e habilite a utiliza&ccedil;&atilde;o de JavaScript</p>
+                                        </noscript>
+                                    </div>
+                                    <div id="conteudo">
+                                        <div class="tabela3">
+                                            
+  
+  <div style="border:solid 0px #FF1FFF;height:50px;padding-top: 5px;">
+	<h3>Síntese dos Preços Praticados - BAHIA</h3>
+	<h3>Resumo I  - ETANOL HIDRATADO R$/l</h3>
+	<h3>Período : De 16/08/2020 a 22/08/2020</h3>
+</div>    
+
+<form id=frmAberto name=frmAberto method=post action="javascript:Direciona();">
+<input type=hidden name=cod_semana value="1105">
+<input type=hidden name=desc_semana value="De 16/08/2020 a 22/08/2020">
+<input type=hidden name="cod_combustivel" value="643">
+<input type=hidden name="desc_combustivel" value=" - ETANOL HIDRATADO R$/l">
+<input type=hidden name="selMunicipio" value="">
+<input type=hidden name=tipo value='1'> 
+
+<p/><br/>
+ 
+<div id="box" class="multi_box">
+<table cellspacing="0" cellpadding="0" class="table_padrao scrollable_table" >
+<tr>
+	<th  class="subtitle" colspan=13 valign=center align=center>
+		DADOS MUNICÍPIO
+	</th>
+</tr>
+<tr>
+	<th width=100 rowspan=2  valign=center align=center>
+		município
+	</th>
+	<th rowspan=2  valign=center align=center>
+		nº de
+		postos<br>
+		pesquisados
+	</th>
+	<td class="subtitle" colspan=5  valign=center align=center>
+		Preço ao Consumidor </td>
+		
+		<td  class="subtitle" colspan=4  valign=center align=center>
+			Preço Distribuidora
+		</td>
+	
+</tr>
+<tr>
+	<th  valign=center align=center>
+		preço médio
+	</th>
+	<th  valign=center align=center>
+		desvio padrão
+	</th>
+	<th  valign=center align=center>
+		preço mínimo
+	</th>
+	<th  valign=center align=center>
+		preço máximo
+	</th>
+	
+		<th  valign=center align=center>
+			margem média
+		</th>
+		<th  valign=center align=center>
+			preço médio
+		</th>
+		<th  valign=center align=center>
+			desvio padrão
+		</th>
+		<th  valign=center align=center>
+			preço mínimo
+		</th>
+		<th  valign=center align=center>
+			preço máximo
+		</th>
+		
+</tr>
+
+<tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('342*ALAGOINHAS');>Alagoinhas</a></td><td  valign=center align=center>9</td><td  valign=center align=center>3,396</td><td  valign=center align=center>0,217</td><td  valign=center align=center>2,920</td><td  valign=center align=center>3,590</td><td  valign=center align=center>0,600</td><td  valign=center align=center>2,796</td><td  valign=center align=center>0,143</td><td  valign=center align=center>2,630</td><td  valign=center align=center>3,025</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('403*BARREIRAS');>Barreiras</a></td><td class='color_line' valign=center align=center>10</td><td class='color_line' valign=center align=center>2,966</td><td class='color_line' valign=center align=center>0,143</td><td class='color_line' valign=center align=center>2,790</td><td class='color_line' valign=center align=center>3,299</td><td class='color_line' valign=center align=center>0,429</td><td class='color_line' valign=center align=center>2,538</td><td class='color_line' valign=center align=center>0,267</td><td class='color_line' valign=center align=center>2,282</td><td class='color_line' valign=center align=center>2,917</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('443*BRUMADO');>Brumado</a></td><td  valign=center align=center>7</td><td  valign=center align=center>3,612</td><td  valign=center align=center>0,050</td><td  valign=center align=center>3,540</td><td  valign=center align=center>3,660</td><td  valign=center align=center>0,961</td><td  valign=center align=center>2,650</td><td  valign=center align=center>0,053</td><td  valign=center align=center>2,598</td><td  valign=center align=center>2,704</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('461*CAETITE');>Caetite</a></td><td class='color_line' valign=center align=center>6</td><td class='color_line' valign=center align=center>2,998</td><td class='color_line' valign=center align=center>0,001</td><td class='color_line' valign=center align=center>2,997</td><td class='color_line' valign=center align=center>2,999</td><td class='color_line' valign=center align=center>0,617</td><td class='color_line' valign=center align=center>2,382</td><td class='color_line' valign=center align=center>0,000</td><td class='color_line' valign=center align=center>2,382</td><td class='color_line' valign=center align=center>2,382</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('473*CAMACARI');>Camacari</a></td><td  valign=center align=center>12</td><td  valign=center align=center>3,082</td><td  valign=center align=center>0,073</td><td  valign=center align=center>2,990</td><td  valign=center align=center>3,190</td><td  valign=center align=center>0,392</td><td  valign=center align=center>2,689</td><td  valign=center align=center>0,054</td><td  valign=center align=center>2,620</td><td  valign=center align=center>2,757</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('579*EUNAPOLIS');>Eunapolis</a></td><td class='color_line' valign=center align=center>8</td><td class='color_line' valign=center align=center>3,521</td><td class='color_line' valign=center align=center>0,051</td><td class='color_line' valign=center align=center>3,470</td><td class='color_line' valign=center align=center>3,599</td><td class='color_line' valign=center align=center>0,820</td><td class='color_line' valign=center align=center>2,701</td><td class='color_line' valign=center align=center>0,059</td><td class='color_line' valign=center align=center>2,648</td><td class='color_line' valign=center align=center>2,765</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('582*FEIRA@DE@SANTANA');>Feira de Santana</a></td><td  valign=center align=center>22</td><td  valign=center align=center>2,947</td><td  valign=center align=center>0,112</td><td  valign=center align=center>2,830</td><td  valign=center align=center>3,199</td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('606*GUANAMBI');>Guanambi</a></td><td class='color_line' valign=center align=center>9</td><td class='color_line' valign=center align=center>3,087</td><td class='color_line' valign=center align=center>0,151</td><td class='color_line' valign=center align=center>2,958</td><td class='color_line' valign=center align=center>3,290</td><td class='color_line' valign=center align=center>0,427</td><td class='color_line' valign=center align=center>2,660</td><td class='color_line' valign=center align=center>0,249</td><td class='color_line' valign=center align=center>2,381</td><td class='color_line' valign=center align=center>2,862</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('659*ILHEUS');>Ilheus</a></td><td  valign=center align=center>12</td><td  valign=center align=center>3,486</td><td  valign=center align=center>0,139</td><td  valign=center align=center>3,350</td><td  valign=center align=center>3,879</td><td  valign=center align=center>0,926</td><td  valign=center align=center>2,560</td><td  valign=center align=center>0,173</td><td  valign=center align=center>2,350</td><td  valign=center align=center>2,792</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('669*IPIRA');>Ipira</a></td><td class='color_line' valign=center align=center>5</td><td class='color_line' valign=center align=center>3,236</td><td class='color_line' valign=center align=center>0,244</td><td class='color_line' valign=center align=center>2,970</td><td class='color_line' valign=center align=center>3,460</td><td class='color_line' valign=center align=center>0,507</td><td class='color_line' valign=center align=center>2,729</td><td class='color_line' valign=center align=center>0,069</td><td class='color_line' valign=center align=center>2,680</td><td class='color_line' valign=center align=center>2,778</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('678*IRECE');>Irece</a></td><td  valign=center align=center>8</td><td  valign=center align=center>3,253</td><td  valign=center align=center>0,046</td><td  valign=center align=center>3,189</td><td  valign=center align=center>3,299</td><td  valign=center align=center>0,557</td><td  valign=center align=center>2,696</td><td  valign=center align=center>0,082</td><td  valign=center align=center>2,638</td><td  valign=center align=center>2,754</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('683*ITABUNA');>Itabuna</a></td><td class='color_line' valign=center align=center>13</td><td class='color_line' valign=center align=center>3,442</td><td class='color_line' valign=center align=center>0,038</td><td class='color_line' valign=center align=center>3,360</td><td class='color_line' valign=center align=center>3,540</td><td class='color_line' valign=center align=center>0,759</td><td class='color_line' valign=center align=center>2,682</td><td class='color_line' valign=center align=center>0,006</td><td class='color_line' valign=center align=center>2,675</td><td class='color_line' valign=center align=center>2,687</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('702*ITAMARAJU');>Itamaraju</a></td><td  valign=center align=center>4</td><td  valign=center align=center>3,432</td><td  valign=center align=center>0,040</td><td  valign=center align=center>3,399</td><td  valign=center align=center>3,479</td><td  valign=center align=center>0,852</td><td  valign=center align=center>2,580</td><td  valign=center align=center>0,000</td><td  valign=center align=center>2,580</td><td  valign=center align=center>2,580</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('736*JACOBINA');>Jacobina</a></td><td class='color_line' valign=center align=center>6</td><td class='color_line' valign=center align=center>3,179</td><td class='color_line' valign=center align=center>0,013</td><td class='color_line' valign=center align=center>3,159</td><td class='color_line' valign=center align=center>3,199</td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('740*JAGUAQUARA');>Jaguaquara</a></td><td  valign=center align=center>7</td><td  valign=center align=center>3,465</td><td  valign=center align=center>0,115</td><td  valign=center align=center>3,299</td><td  valign=center align=center>3,599</td><td  valign=center align=center>0,647</td><td  valign=center align=center>2,817</td><td  valign=center align=center>0,045</td><td  valign=center align=center>2,754</td><td  valign=center align=center>2,860</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('749*JEQUIE');>Jequie</a></td><td class='color_line' valign=center align=center>9</td><td class='color_line' valign=center align=center>3,546</td><td class='color_line' valign=center align=center>0,086</td><td class='color_line' valign=center align=center>3,319</td><td class='color_line' valign=center align=center>3,600</td><td class='color_line' valign=center align=center>0,926</td><td class='color_line' valign=center align=center>2,620</td><td class='color_line' valign=center align=center>0,236</td><td class='color_line' valign=center align=center>2,350</td><td class='color_line' valign=center align=center>2,790</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('759*JUAZEIRO');>Juazeiro</a></td><td  valign=center align=center>10</td><td  valign=center align=center>3,633</td><td  valign=center align=center>0,140</td><td  valign=center align=center>3,299</td><td  valign=center align=center>3,800</td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('789*LAURO@DE@FREITAS');>Lauro de Freitas</a></td><td class='color_line' valign=center align=center>11</td><td class='color_line' valign=center align=center>3,003</td><td class='color_line' valign=center align=center>0,131</td><td class='color_line' valign=center align=center>2,890</td><td class='color_line' valign=center align=center>3,390</td><td class='color_line' valign=center align=center>0,288</td><td class='color_line' valign=center align=center>2,715</td><td class='color_line' valign=center align=center>0,071</td><td class='color_line' valign=center align=center>2,665</td><td class='color_line' valign=center align=center>2,862</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('793*LIVRAMENTO@DE@NOSSA@SENHORA');>Livramento de Nossa Senhora</a></td><td  valign=center align=center>4</td><td  valign=center align=center>3,324</td><td  valign=center align=center>0,051</td><td  valign=center align=center>3,298</td><td  valign=center align=center>3,400</td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('909*PAULO@AFONSO');>Paulo Afonso</a></td><td class='color_line' valign=center align=center>6</td><td class='color_line' valign=center align=center>3,465</td><td class='color_line' valign=center align=center>0,010</td><td class='color_line' valign=center align=center>3,450</td><td class='color_line' valign=center align=center>3,479</td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td><td class='color_line' valign=center align=center> - </td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('937*POCOES');>Pocoes</a></td><td  valign=center align=center>6</td><td  valign=center align=center>3,289</td><td  valign=center align=center>0,085</td><td  valign=center align=center>3,149</td><td  valign=center align=center>3,399</td><td  valign=center align=center>0,524</td><td  valign=center align=center>2,765</td><td  valign=center align=center>0,018</td><td  valign=center align=center>2,747</td><td  valign=center align=center>2,790</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('944*PORTO@SEGURO');>Porto Seguro</a></td><td class='color_line' valign=center align=center>6</td><td class='color_line' valign=center align=center>3,595</td><td class='color_line' valign=center align=center>0,195</td><td class='color_line' valign=center align=center>3,350</td><td class='color_line' valign=center align=center>3,790</td><td class='color_line' valign=center align=center>0,713</td><td class='color_line' valign=center align=center>2,882</td><td class='color_line' valign=center align=center>0,000</td><td class='color_line' valign=center align=center>2,882</td><td class='color_line' valign=center align=center>2,882</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('988*SALVADOR');>Salvador</a></td><td  valign=center align=center>87</td><td  valign=center align=center>3,035</td><td  valign=center align=center>0,184</td><td  valign=center align=center>2,860</td><td  valign=center align=center>3,499</td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td><td  valign=center align=center> - </td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1006*SANTO@ANTONIO@DE@JESUS');>Santo Antonio de Jesus</a></td><td class='color_line' valign=center align=center>7</td><td class='color_line' valign=center align=center>3,221</td><td class='color_line' valign=center align=center>0,078</td><td class='color_line' valign=center align=center>3,190</td><td class='color_line' valign=center align=center>3,399</td><td class='color_line' valign=center align=center>0,436</td><td class='color_line' valign=center align=center>2,786</td><td class='color_line' valign=center align=center>0,022</td><td class='color_line' valign=center align=center>2,770</td><td class='color_line' valign=center align=center>2,801</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1036*SENHOR@DO@BONFIM');>Senhor do Bonfim</a></td><td  valign=center align=center>7</td><td  valign=center align=center>3,498</td><td  valign=center align=center>0,086</td><td  valign=center align=center>3,350</td><td  valign=center align=center>3,599</td><td  valign=center align=center>0,762</td><td  valign=center align=center>2,736</td><td  valign=center align=center>0,060</td><td  valign=center align=center>2,659</td><td  valign=center align=center>2,806</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1045*SERRINHA');>Serrinha</a></td><td class='color_line' valign=center align=center>6</td><td class='color_line' valign=center align=center>3,265</td><td class='color_line' valign=center align=center>0,035</td><td class='color_line' valign=center align=center>3,210</td><td class='color_line' valign=center align=center>3,299</td><td class='color_line' valign=center align=center>0,521</td><td class='color_line' valign=center align=center>2,744</td><td class='color_line' valign=center align=center>0,037</td><td class='color_line' valign=center align=center>2,680</td><td class='color_line' valign=center align=center>2,770</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1047*SIMOES@FILHO');>Simoes Filho</a></td><td  valign=center align=center>9</td><td  valign=center align=center>3,184</td><td  valign=center align=center>0,146</td><td  valign=center align=center>2,990</td><td  valign=center align=center>3,470</td><td  valign=center align=center>0,465</td><td  valign=center align=center>2,719</td><td  valign=center align=center>0,037</td><td  valign=center align=center>2,680</td><td  valign=center align=center>2,757</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1078*TEIXEIRA@DE@FREITAS');>Teixeira de Freitas</a></td><td class='color_line' valign=center align=center>8</td><td class='color_line' valign=center align=center>3,307</td><td class='color_line' valign=center align=center>0,112</td><td class='color_line' valign=center align=center>3,090</td><td class='color_line' valign=center align=center>3,399</td><td class='color_line' valign=center align=center>0,637</td><td class='color_line' valign=center align=center>2,670</td><td class='color_line' valign=center align=center>0,012</td><td class='color_line' valign=center align=center>2,661</td><td class='color_line' valign=center align=center>2,679</td></tr><tr><td  class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1102*VALENCA');>Valenca</a></td><td  valign=center align=center>9</td><td  valign=center align=center>3,297</td><td  valign=center align=center>0,175</td><td  valign=center align=center>2,990</td><td  valign=center align=center>3,400</td><td  valign=center align=center>0,616</td><td  valign=center align=center>2,681</td><td  valign=center align=center>0,056</td><td  valign=center align=center>2,644</td><td  valign=center align=center>2,784</td></tr><tr><td class='color_line1' class=lincol valign=center><a class=linkpadrao href=javascript:Direciona('1116*VITORIA@DA@CONQUISTA');>Vitoria da Conquista</a></td><td class='color_line' valign=center align=center>10</td><td class='color_line' valign=center align=center>3,364</td><td class='color_line' valign=center align=center>0,018</td><td class='color_line' valign=center align=center>3,350</td><td class='color_line' valign=center align=center>3,399</td><td class='color_line' valign=center align=center>0,581</td><td class='color_line' valign=center align=center>2,783</td><td class='color_line' valign=center align=center>0,000</td><td class='color_line' valign=center align=center>2,783</td><td class='color_line' valign=center align=center>2,783</td></tr>
+
+</table>
+</div>
+</form>
+		<div align="center" class="container-botao-exportar"> 
+
+			<form method="post" name="frmEntregues" id="frmEntregues" action="Relatorio_Excel_Resumo_Por_Estado_Municipio.asp">
+				<input type="submit" name="btnSalvar" value="Exportar" onClick= 'confirm("Deseja exportar as informações para planilha Excel?")' class="botao-exportar"> 
+				<input type="hidden" name="cod_semana" value="1105">
+				<input type="hidden" name="desc_semana" value="De 16/08/2020 a 22/08/2020">
+				<input type="hidden" name="COD_ESTADO" value="BA">
+				<input type="hidden" name="DESC_ESTADO" value="BAHIA">
+				<input type="hidden" name="COD_COMBUSTIVEL" value="643">
+				<input type="hidden" name="DESC_COMBUSTIVEL" value=" - ETANOL HIDRATADO R$/l">
+</form>
+		</div>
+
+                                                                    <div id="conteudo2">
+                                                                        <b> O c&aacute;lculo do pre&ccedil;o m&eacute;dio foi ponderado de acordo com as vendas de combust&iacute;veis informadas pelas distribuidoras &agrave; ANP no ano de 2019, por meio do i-SIMP (Sistema de Informa&ccedil;&otilde;es de Movimenta&ccedil;&atilde;o de Produtos).</b><br>
+                                                                        <br />
+                                                                        <font style="float: right;"><b>Data de Emiss&atilde;o :
+                                                                            24/09/2020</b></font>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="footer">
+                                                        <div id="footer_inner">
+                                                            <p>
+                                                                Site melhor visualizado com o Microsoft Internet Explorer</p>
+                                                            <p>
+                                                                Em caso de d&uacute;vidas na utiliza&ccedil;&atilde;o do sistema, entre em contato com o
+                                                                <br>
+                                                                <h5>
+                                                                    Centro de Rela&ccedil;&otilde;es com o Consumidor da ANP
+                                                                    - Telefone
+                                                                    0800 - 970 0267</h5>
+                                                                <p>
+                                                                    &Eacute; autorizada a reprodu&ccedil;&atilde;o total ou parcial dos dados publicados nesta p&aacute;gina, mediante men&ccedil;&atilde;o obrigat&oacute;ria da fonte (endere&ccedil;o eletr&ocirc;nico e data de acesso) de forma clara e vis&iacute;vel. 
+                                                                    <br>
+                                                                    <p>
+                                                                        ANP - Ag&ecirc;ncia Nacional do Petr&oacute;leo, G&aacute;s Natural e Biocombust&iacute;veis</p>
+																	<h5>	<p>	<a href="http://www.anp.gov.br/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos/serie-historica-do-levantamento-de-precos-e-de-margens-de-comercializacao-de-combustiveis" target="_blanck">Clique aqui para acessar a s&eacute;rie hist&oacute;rica do Levantamento de Pre&ccedil;os</a> </p> </h5>
+                                                        </div>
+                                                    </div>
+                                            </body>
+                                            
