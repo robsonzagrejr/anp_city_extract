@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import lxml.html as LH
 import requests
+import argparse
 
 
 def get_state_info(file_path, state_name):
@@ -48,6 +49,13 @@ def get_city_data(city, info):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("echo", help="echo the string you use here")
+    args = parser.parse_args()
+    print(args.echo)
+
+    return
+
     state_name = "Bahia"
     file_path = "Bahia_cidades.html"
     info, citys = get_state_info(file_path, state_name)
