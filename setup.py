@@ -6,7 +6,7 @@ setup(
     url='https://github.com/robsonzagrejr/anp_city_extract',
     author='Robson Zagre Júnior',
     author_email='r.zagre.jr@gmail.com',
-    description='Simple ANP info stract for UFSC Probabilidade e Estatistica class'
+    description='Simple ANP info stract for UFSC Probabilidade e Estatistica class',
     packages=['anp_city_extract'],
     install_requires=[
         'unidecode',
