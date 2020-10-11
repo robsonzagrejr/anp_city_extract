@@ -7,5 +7,12 @@ setup(
     author='Robson Zagre Júnior',
     author_email='r.zagre.jr@gmail.com',
     description='Simple ANP info stract for UFSC Probabilidade e Estatistica class'
-    packages=find_packages(),    
+    packages=['anp_city_extract'],
+    install_requires=[
+        'unidecode',
+        'pandas',
+        'requests',
+        'lxml',
+        'beautifulsoup4'
+    ]
 )
