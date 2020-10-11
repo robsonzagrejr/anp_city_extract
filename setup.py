@@ -9,11 +9,11 @@ setup(
     description='Simple ANP info stract for UFSC Probabilidade e Estatistica class'
     packages=find_packages(),    
     install_requires=[
-        'Unidecode >=1.1.1',
-        'beautifulsoup4 >=4.9.3',
-        'html5lib >=1.1',
-        'lxml >=4.5.2',
-        'pandas >=1.0.1',
-        'requests >=2.23.0',
+        'Unidecode >= 1.1.1',
+        'beautifulsoup4 >= 4.9.3',
+        'html5lib >= 1.1',
+        'lxml >= 4.5.2',
+        'pandas >= 1.0.1',
+        'requests >= 2.23.0',
     ],
 )
