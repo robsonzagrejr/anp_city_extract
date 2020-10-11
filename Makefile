@@ -6,5 +6,5 @@ update:
 	poetry update
 
 run:
-	poetry run python extract_anp.py
+	poetry run python anp-city-extract/extract_anp.py
 
