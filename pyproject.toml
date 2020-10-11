@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "anp_city_extract"
+version = "0.1.0"
+description = ""
+authors = ["robson <r.zagre.jr@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.1"
+requests = "^2.23.0"
+lxml   = "^4.5.2"
+html5lib = "^1.1"
+Unidecode = "^1.1.1"
+beautifulsoup4 ="^4.9.3"

@@ -4,6 +4,17 @@ Auxiliador para obter preço de combustivel para cada municipio em http://preco.
 # Dependencias
 Para executar, instale `pandas`, `requests` e `lxml` do pip
 
+# Sites
+## Anp
+[Site Ano para preços de combustíveis](http://preco.anp.gov.br/)
+
+## Hierarquia dos municípios
+[Site do ibge para hierarquia dos municípios](https://cidades.ibge.gov.br/brasil/rj/panorama)
+Exporte o panoroma do Estado com Hierarquia urbana selecionado
+
+# Instalação
+Execute `make install` para instalar as dependências necessárias
+
 # Como usar
 
 1: Vá até a página de síntese dos preços praticados no estado que deseja analisar.
